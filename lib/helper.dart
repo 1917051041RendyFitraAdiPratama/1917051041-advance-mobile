@@ -2,7 +2,6 @@ import 'dart:io';
 
 late String? nama;
 void main() {
-  int umur = 3;
   nama = stdin.readLineSync();
   print("nama : $nama");
 
